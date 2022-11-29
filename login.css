@@ -1,0 +1,27 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top:10%;
+            text-align: center;
+        }
+        .content {
+            background-color: aqua;
+            padding: 10%;
+        }
+        .items {
+            display: flex;
+            justify-content: space-between;
+            margin:10px 0;
+        }
+        label {
+            width:70px;
+        }
+        button {
+            margin-left: 5px;
+            padding:2px 40%;
+        }
